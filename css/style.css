@@ -2,84 +2,96 @@
 * Created on: Apr 2024
 * This file contains the CSS for index.html
 */
+.mdl-layout__header-row {
+  justify-content: left;
+  padding: 30px;
+  color: #000;
+}
+
+
 
 body {
-    background-color: #1e523c;
-  }
-  
-  .content {
-    margin: auto;
-    background-color: #909475;
-    color: #404E6D;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    max-width: 1450px;
-    border: 5px solid #37ff00;
-  }
-  
-  p {
-    text-align: center;
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #000;
-  }
-  
-  h1 {
-    font-size: 60px;
-    padding-top: 20px;
-    text-align: center;
-    color: #1e523c;
-  }
-    
-  h6 {
-    font-size: 15px;
-    text-align:center;
-  }
+  background-color: #2ca7ff;
+}
 
-  li {
-    text-align: center;
-    display: inline-block;
-    font-size: 35px;
-    padding: 60px;
-    color: #000;
-  }
-  
-  img {
-    display: block;
-    margin: auto;
-    border-radius: 10%;
-    border: 5px solid #37ff00;
-    width: 500px;
-    height: 300px;
-  }
-  
-  blockquote {
-    text-align: center;
-    font-size: 22px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 50px;
-    color: #000;
-  }
-  
-  .noteworthy {
-    max-width: 760px;
-    padding: 20px;
-    margin: auto;
-    clear: both;
-  }
-  
-  .description {
-    font-size: 18px;
-    margin-top: auto;
-  }
-  
-  h4 {
-    text-align: center;
-    color: black;
-    font-family: cursive;
-  }
-  
-  a {
-    color: #004df4;
-    font-size: 20px;
-    text-align: center;
-  }
+.content {
+  margin: auto;
+  background-color: #f4f4f4;
+  color: #404E6D;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  max-width: 1450px;
+  border: 5px solid #004df4;
+}
+
+p {
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+}
+
+h1 {
+  font-size: 70px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+h5 {
+  font-size: 15px;
+  padding: 15px;
+}
+
+li {
+  text-align: center;
+  display: inline-block;
+  font-size: 35px;
+  padding: 80px;
+  color: #000;
+}
+
+img {
+  display: block;
+  margin: auto;
+  border-radius: 10%;
+  border: 5px solid #004df4;
+  width: 500px;
+  height: 300px;
+}
+
+blockquote {
+  text-align: center;
+  font-size: 22px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 50px;
+  color: #000;
+}
+
+.noteworthy {
+  max-width: 760px;
+  padding: 20px;
+  margin: auto;
+  clear: both;
+}
+
+.description {
+  font-size: 18px;
+  margin-top: auto;
+}
+
+h4 {
+  text-align: center;
+  color: black;
+  font-family: cursive;
+}
+
+a {
+  color: #004df4;
+  font-size: 20px;
+  text-align: center;
+}
