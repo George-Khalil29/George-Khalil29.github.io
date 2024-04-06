@@ -28,7 +28,7 @@
   img {
     height: auto;
     width: 350px;
-    float: right;
+    float: center;
   }
   
   body {
@@ -43,4 +43,8 @@
 
   a {
     color: lightblue;
+  }
+
+  h1 {
+    
   }
