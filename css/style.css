@@ -1,80 +1,46 @@
-body {
-    background-color: #013f0c;
+/* Created by:George Khalil
+* Created on: Apr 2024
+* This file contains the CSS for index.html
+*/
+.mdl-layout__header-row {
+    justify-content: center;
+    padding: 0;
   }
   
-  .content {
-    margin: auto;
-    background-color: #999393;
-    color: #404E6D;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    max-width: 1080px;
-    border: 5px solid #197200;
+  .mdl-layout__content {
+    padding-left: 15pt;
+    padding-right: 15pt;
+    padding-top: 15pt;
   }
   
-  p {
-    text-align: center;
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #000;
+  .mdl-textfield__error {
+    color: lightgreen;
   }
   
-  h1 {
-    font-size: 55px;
-    padding-top: 20px;
-    text-align: center;
+  .page-content {
+    color: rgb(0 0 0);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.25rem;
   }
   
-  h2 {
-    font-size: 40px;
-    padding-top: 5px;
-    text-align: center;
-  }
-  
-  li {
-    text-align: center;
-    display: inline-block;
-    font-size: 35px;
-    padding: 33px;
-    color: #000;
+  .page-content-answer {
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.25rem;
   }
   
   img {
-    display: block;
-    margin: auto;
-    border-radius: 10%;
-    border: 5px solid #197200;
-    width: 400px;
-    height: 200px;
+    height: auto;
+    width: 350px;
+    float: right;
   }
   
-  blockquote {
-    text-align: center;
-    font-size: 22px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 50px;
-    color: #000;
+  body {
+    background-color: rgb(101 192 225);
   }
   
-  .noteworthy {
-    max-width: 760px;
-    padding: 20px;
-    margin: auto;
-    clear: both;
-  }
-  
-  .description {
-    font-size: 18px;
-    margin-top: auto;
-  }
-  
-  h4 {
-    text-align: center;
-    color: black;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-  }
-  
-  a {
-    color: #197200;
-    font-size: 20px;
-    text-align: center;
+  label {
+    display: inline-block;
+    width: 50px;
+    text-align: left;
   }
