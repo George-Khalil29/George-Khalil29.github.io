@@ -47,6 +47,12 @@ h5 {
   padding: 15px;
 }
 
+h6 {
+  font-size: 15px;
+  padding: 15px;
+  text-align: left;
+}
+
 li {
   text-align: center;
   display: inline-block;
