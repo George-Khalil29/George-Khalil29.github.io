@@ -119,6 +119,15 @@ li {
   padding: 5px;
 }
 
+.GK3 {
+  display: block;
+  margin: auto;
+  border-radius: 10%;
+  width: 100px;
+  height: 100px;
+  padding: 4px;
+}
+
 blockquote {
   text-align: center;
   font-size: 22px;
