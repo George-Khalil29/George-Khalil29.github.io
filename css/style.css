@@ -69,6 +69,14 @@ li {
   height: 250px;
 }
 
+.Land3 {
+  display: block;
+  margin: auto;
+  border-radius: 10%;
+  width: 400px;
+  height: 250px;
+}
+
 .Canada {
   display: block;
   margin: auto;
