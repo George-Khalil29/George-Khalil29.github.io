@@ -65,8 +65,8 @@ li {
   display: block;
   margin: auto;
   border-radius: 20%;
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  height: 250px;
 }
 
 .Canada {
@@ -75,39 +75,6 @@ li {
   border-radius: 10%;
   width: 200px;
   height: 100px;
-}
-
-.USA {
-  display: block;
-  margin: auto;
-  border-radius: 10%;
-  width: 200px;
-  height: 100px;
-}
-
-.Australia {
-  display: block;
-  margin: auto;
-  border-radius: 10%;
-  width: 200px;
-  height: 100px;
-}
-
-.NewZealand {
-  display: block;
-  margin: auto;
-  border-radius: 10%;
-  width: 200px;
-  height: 100px;
-}
-
-.GK {
-  display: block;
-  margin: auto;
-  border-radius:10%;
-   width: 60px;
-   height: 60px;
-   padding: 10px;
 }
 
 .GK2 {
@@ -126,6 +93,15 @@ li {
   width: 100px;
   height: 100px;
   padding: 4px;
+}
+
+.active {
+  display: block;
+  margin: right;
+  border-radius: 10%;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
 }
 
 blockquote {
