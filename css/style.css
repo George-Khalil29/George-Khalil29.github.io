@@ -77,14 +77,6 @@ li {
   height: 250px;
 }
 
-.Canada {
-  display: block;
-  margin: auto;
-  border-radius: 10%;
-  width: 200px;
-  height: 100px;
-}
-
 .GK2 {
   display: block;
   margin: auto;
@@ -101,6 +93,14 @@ li {
   width: 100px;
   height: 100px;
   padding: 4px;
+}
+
+.Syria {
+  display: block;
+  margin: auto;
+  border-radius: 10%;
+  width: 400px;
+  height: 250px;
 }
 
 .active {
